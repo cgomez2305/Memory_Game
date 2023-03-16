@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    
+        background: linear-gradient(270deg, #60f2cc, #6090f2);
+        background-size: 400% 400%;
+    
+        -webkit-animation: AnimationName 0s ease infinite;
+        -moz-animation: AnimationName 0s ease infinite;
+        -o-animation: AnimationName 0s ease infinite;
+        animation: AnimationName 0s ease infinite;
+}
+ 
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+.container{
+    width: 60%;
+    height: 800px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: rgb(114, 203, 104);
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);
+}
+.container-random{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.container-random-btn{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 5px;
+}
+.container-random-btn-1{
+    width: 20%;
+    height: 20%;
+    background-color: rgb(0, 81, 255);
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);
+    border: solid 1px white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.container-random-btn button{
+    width: 20%;
+    height: 20%;
+    border-radius: 10px;
+    border: solid 1px white;
+    background-color: rgb(0, 81, 255);
+    color: white;
+    font-size: 40px;
+}
+.container-view{
+    width: 30%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5%;
+    align-items: center;
+}
+.container-view-aciertos{
+    width: 100%;
+    height: 20%;
+    background-color: white;
+    border-radius: 10px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    color: black;
+
+}
+.container-view-tiempo{
+    width: 100%;
+    height: 20%;
+    background-color: white;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    color: black;
+}
+.container-view-movimientos{
+    width: 100%;
+    height: 20%;
+    background-color: white;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    color: black;
+}
+.container-view-btn{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    border-radius: 10px;
+    
+}
+.container-view-btn button{
+    height: 50px;
+    width: 100%;
+    background: rgb(0, 81, 255);
+    color: white;
+    font-family: inherit;
+    padding: 0.6em 1.3em;
+    font-weight: 900;
+    font-size: 18px;
+    border: 3px solid black;
+    border-radius: 0.4em;
+    box-shadow: 0.1em 0.1em;
+}
+.container-view-btn button:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em;
+  }
+  
+  .container-view-btn button:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em;
+  }
