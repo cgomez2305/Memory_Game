@@ -48,6 +48,4 @@ tablero.addEventListener('click',(event)=>{
     }
 })
 
-function time(()=>{
-    
-})
+
